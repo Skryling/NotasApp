@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Notas from "./components/Notas";
 import { datos } from "./data/infoNotas";
+import Footer from "./components/Footer";
 // import './App.css'
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         </div>
       </div>
       {/* <del>{`${coso}`}</del> */}
-      
+      <Footer/>
     </>
   );
 }

@@ -29,10 +29,10 @@ const NavBar = () => {
   };
 
   return (
-    <div>
+    <div className="mb-2">
       <nav className="navbar navbar-light bg-light d-flex justify-content-between">
         <div className="container d-flex justify-content-start cajaTitulo mx-0">
-          <a className="navbar-brand">StuartApp</a>
+          <a className="navbar-brand">NotasApp</a>
           <span className="fav">Favoritos</span>
         </div>
         <div className="d-flex align-items-center cajaTiempo">

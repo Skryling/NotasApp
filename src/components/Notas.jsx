@@ -7,13 +7,16 @@ const Notas = ({nota}) => {
     <div>
       <div className="card col">
         {/* {console.log(index)} */}
-        <div className="card-body">{`${nota.texto}`}</div>
+        <div className="card-body text-center">{`${nota.texto}`}</div>
       </div>
     </div>
   );
 };
 
 export default Notas;
+
+// {hacer un apartado de notas con candado que se necesite una contraseña para poder verlas}
+
 {
   /*
     <div className="card">
